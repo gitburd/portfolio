@@ -23,19 +23,20 @@ body {margin: 0;
   font-family: "Trebuchet MS", 'Source Sans Pro' !important;
   font-size: 18px;
   float: left;
-  padding-bottom:10px; 
+  padding:10px 0; 
 }
 
-#about-img{
-  float: left;
-  width: 25%;
-  padding: 10px, 10px, 10px, 0;
+ #about-img{
+  
+  width: 35%;
+  padding: 20px, 10px, 10px, 0;
 }
 
-#about{
-  margin-top:0; 
-  padding-top: 0;
-}
+#about{padding-top: 65px;
+    padding-bottom: 20px;
+    }
+
+
 #resume{
   margin-top:0; 
   padding-top: 0;
@@ -47,7 +48,7 @@ body {margin: 0;
   margin-top:0; 
   padding-top: 0;
   margin-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 40px;
 }
 
 .name{
@@ -78,7 +79,8 @@ h2.land{
 #pink{
   color:hotpink !important;
   font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
-  
+  margin-top: 0px !important;
+    padding-top: 0pt !important; 
 }
 
 ul.topnav {
@@ -597,11 +599,12 @@ h1 {
     padding-bottom: 0pt;
     font-family: "Open Sans";
     line-height: 1.0;
-    text-align: left
+    text-align: left;
+   
 }
 
 h2 {
-    padding-top: 16pt;
+    padding-top: 0pt;
     color: #000000;
     font-weight: 700;
     font-size: 11pt;
@@ -609,7 +612,8 @@ h2 {
     font-family: "Merriweather";
     line-height: 1.0;
     page-break-after: avoid;
-    text-align: left
+    text-align: left;
+    margin-top: 0px !important;
 }
 
 h3 {
