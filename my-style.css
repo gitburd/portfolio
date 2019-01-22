@@ -9,10 +9,8 @@ font-family: 'Nunito', sans-serif; */
 
 
 #over.h3 {
-
-    font-family: 'Nunito','Nova Round', 'Baloo', Bookman; 
-    font-size: 30px;
-
+     font-family: 'Nunito','Nova Round', 'Baloo', Bookman !important; 
+    font-size: 30px !important;
 }
 
 body {margin: 0;
@@ -31,6 +29,8 @@ body {margin: 0;
   
   width: 35%;
   padding: 20px, 10px, 10px, 0;
+
+ border: 8px double #609f67;
 }
 
 #about{padding-top: 65px;
@@ -85,7 +85,7 @@ h2.land{
     padding-top: 0pt !important; 
 }
 
-ul.topnav {
+/* ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -119,4 +119,4 @@ ul.topnav li a.active {background-color: #4CAF50;}
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
-}
+} */

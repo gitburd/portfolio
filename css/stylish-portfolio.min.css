@@ -1,4 +1,4 @@
-/*!
+/* !
  * Start Bootstrap - Stylish Portfolio v5.0.1 (https://startbootstrap.com/template-overviews/stylish-portfolio)
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
@@ -114,7 +114,7 @@ h6 {
         font-size: 5.5rem
     }
 }
-
+/* 
 #sidebar-wrapper {
     position: fixed;
     z-index: 2;
@@ -127,8 +127,8 @@ h6 {
     transform: translateX(250px);
     background: #1d809f;
     border-left: 1px solid rgba(255, 255, 255, .1)
-}
-
+} */
+/* 
 .sidebar-nav {
     position: absolute;
     top: 0;
@@ -180,9 +180,9 @@ h6 {
     width: 250px;
     -webkit-transition: all .4s ease 0s;
     transition: all .4s ease 0s
-}
+} */
 
-.menu-toggle {
+/* .menu-toggle {
     position: fixed;
     right: 15px;
     top: 15px;
@@ -193,16 +193,16 @@ h6 {
     background: rgba(52, 58, 64, .5);
     line-height: 50px;
     z-index: 999
-}
+} */
 
-.menu-toggle:focus,
+/* .menu-toggle:focus,
 .menu-toggle:hover {
     color: #fff
 }
 
 .menu-toggle:hover {
     background: #343a40
-}
+} */
 
 .service-icon {
     background-color: #fff;
