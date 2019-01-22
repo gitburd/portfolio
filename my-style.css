@@ -60,6 +60,15 @@ body {margin: 0;
     display: block;
     margin: auto;
 }
+
+
+.nav-link{
+    color:hotpink !important;
+    font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
+    font-size: 24px;   
+}
+
+
 h1.land{
   color:white !important;
   font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
