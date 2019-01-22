@@ -17,6 +17,9 @@ body {margin: 0;
   
 }
 
+.navbar-override{background-color: black important!}
+ 
+
 #about-txt{
   font-family: 'Lora', 'Trebuchet MS', 'Source Sans Pro' !important;
   font-size: 18px;
@@ -30,7 +33,6 @@ body {margin: 0;
   width: 35%;
   padding: 20px, 10px, 10px, 0;
 
- border: 8px double #609f67;
 }
 
 #about{padding-top: 65px;
@@ -53,12 +55,10 @@ body {margin: 0;
 }
 
 .name{
-    color:hotpink !important;
-    font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
-    font-size: 24px;   
-    text-align: center;
-    display: block;
-    margin: auto;
+    color:white !important;
+    font-family: 'Nunito','Nova Round', 'Baloo', Bookman;  
+    font-size: 36px; 
+    padding-right: 10px;   
 }
 
 
@@ -66,6 +66,7 @@ body {margin: 0;
     color:hotpink !important;
     font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
     font-size: 24px;   
+    
 }
 
 
