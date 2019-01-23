@@ -17,7 +17,6 @@ body {margin: 0;
   
 }
 
-#nav-override{background-color: black important!}
  
 
 #about-txt{
@@ -70,9 +69,10 @@ body {margin: 0;
 
 
 .nav-link{
-    color:hotpink !important;
+    color:#FF5CAD !important;
     font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
-    font-size: 24px;   
+    font-size: 24px;
+    padding: 7px;   
     
 }
 
@@ -95,11 +95,20 @@ h2.land{
 }
 
 
-.pink{
-  color:hotpink !important;
+.dark-pink{
+  color:#AD0057 !important;
   font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
   margin-top: 0px !important;
     padding-top: 0pt !important; 
+    font-weight:bold; 
+}
+
+.light-pink{
+  color:#FF5CAD !important;
+  font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
+  margin-top: 0px !important;
+    padding-top: 0pt !important; 
+    font-weight: bold;
 }
 
 /* ul.topnav {
