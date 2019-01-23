@@ -30,7 +30,7 @@ body {margin: 0;
 
  #about-img{
   
-  width: 35%;
+  width: 45%;
   padding: 20px, 10px, 10px, 0;
 
 }
@@ -41,6 +41,13 @@ body {margin: 0;
 
 
 #resume{
+    color:hotpink !important;
+    font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
+    margin-top: 0px !important;
+      padding-top: 0pt !important; 
+
+}
+.resume{
   margin-top:0; 
   padding-top: 0;
   margin-bottom: 0;
@@ -88,7 +95,7 @@ h2.land{
 }
 
 
-#pink{
+.pink{
   color:hotpink !important;
   font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
   margin-top: 0px !important;
