@@ -17,7 +17,7 @@ body {margin: 0;
   
 }
 
-.navbar-override{background-color: black important!}
+#nav-override{background-color: black important!}
  
 
 #about-txt{
