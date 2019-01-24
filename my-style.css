@@ -1,158 +1,184 @@
-
-body {margin: 0;
-  
+#right-menu {
+  float: right;
 }
 
- /* #pushContent{
+
+#pink-link a {
+  color: #AD0057 !important;
+  text-decoration: none;
+}
+
+#pink-link a:hover,
+.right-menu li:hover,
+a.nav-link:hover {
+  opacity: 0.8;
+}
+
+body {
+  margin: 0;
+
+}
+
+/* #pushContent{
   
   position: fixed;
   top: 0;
   width: 100%;
 } */
-
+@media (max-width: 870px) {
+  .mobile-noDisplay {
+    display: none;
+  }
+}
 
 
 @media (max-width: 767px) {
   #pushContent {
-  height: 222.5px;
-  width:100%;
-  display: none;
+    height: 222.5px;
+    width: 100%;
+    display: none;
   }
 
   #pushPortfolio {
     height: 222.5px;
-    width:100%;
+    width: 100%;
     display: none;
-    }
-  
+  }
+
+  .mobile-noDisplay {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
   #pushContent {
-  height: 222.5px;
-  width:100%;
-  display: none;
-  }
-  #pushPortfolio{
     height: 222.5px;
-    width:100%;
+    width: 100%;
     display: none;
-    }
+  }
+
+  #pushPortfolio {
+    height: 222.5px;
+    width: 100%;
+    display: none;
+  }
 }
 
-.new{
+.new {
   padding-top: 30px;
-  background-color: black; 
+  background-color: black;
 }
 
-.dark-pink{
-color:#AD0057 !important;
-font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
-margin-top: 0px !important;
+.dark-pink {
+  color: #AD0057 !important;
+  font-family: 'Merriweather', 'Nunito', 'Nova Round', 'Baloo', Bookman;
+  margin-top: 0px !important;
   /* padding-top: 10px !important;  */
   padding-bottom: 10px;
-  font-weight: bold; 
-  font-size: 30px !important;
+  font-weight: bold;
+  font-size: 45px !important;
 }
 
-.light-pink{
-color:#FF5CAD !important;
-font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
-margin-top: 0px !important;
+.light-pink {
+  color: #FF5CAD !important;
+  font-family: 'Merriweather', 'Nunito', 'Nova Round', 'Baloo', Bookman;
+  margin-top: 0px !important;
   padding-top: 10px !important;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
   font-weight: bold;
-font-size: 30px !important;
+  font-size: 30px !important;
 }
 
 /* top */
 
-h1.land{
-  color:white !important;
-  font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
-  
+h1.land {
+  color: white !important;
+  font-family: 'Merriweather Sans', 'Nunito', 'Nova Round', 'Baloo', Bookman;
+
   text-align: center;
   display: block;
   margin: auto;
-  }
-  h2.land{
-  color:white !important;
+}
+
+h2.land {
+  color: white !important;
   font-family: "Trebuchet MS", 'Source Sans Pro' !important;
   text-align: center;
   display: block;
   margin: auto;
   font-size: 24px;
-  }
+}
 
 /* nav */
 
 
-.nav-link{
-  color:#FF5CAD !important;
-  font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
+.nav-link {
+  color: #FF5CAD !important;
+  font-family: 'Merriweather Sans', 'Nunito', 'Nova Round', 'Baloo', Bookman;
   font-size: 24px;
-  padding: 7px;   
-  
+  padding: 7px;
+
 }
-.name{
-  color:white !important;
-  font-family: 'Nunito','Nova Round', 'Baloo', Bookman;  
-  font-size: 36px; 
-  padding-right: 10px;   
+
+.name {
+  color: white !important;
+  font-family: 'Nunito', 'Nova Round', 'Baloo', Bookman;
+  font-size: 36px;
+  padding-right: 10px;
 }
 
 
 /* portfolio */
 
-#portfolio{
-  margin-top:0; 
+#portfolio {
+  margin-top: 0;
   padding-top: 0;
   margin-bottom: 0;
-    /* padding-bottom: 40px; */
+  /* padding-bottom: 40px; */
 }
 
 /* resume */
-.resume{
-  margin-top:0; 
+.resume {
+  margin-top: 0;
   padding-top: 0;
   margin-bottom: 0;
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
-#resume{
-  color:hotpink !important;
-  font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
+#resume {
+  color: hotpink !important;
+  font-family: 'Merriweather', 'Nunito', 'Nova Round', 'Baloo', Bookman;
   margin-top: 0px !important;
-    padding-top: 0pt !important; 
+  padding-top: 0pt !important;
 
 }
 
 
 
- /* about */
+/* about */
 
- #about-txt{
+#about-txt {
   font-family: 'Lora', 'Trebuchet MS', 'Source Sans Pro' !important;
   font-size: 18px;
   float: left;
-  padding:10px 0; 
+  padding: 10px 0;
   color: white;
 }
 
- #about-img{
-  
+#about-img {
+
   width: 50%;
   padding: 20px, 10px, 10px, 0;
   border-radius: 10%;
-  
+
 
 }
 
-#about{
+#about {
   padding-bottom: 40px;
   margin-top: 40px;
-    
-    }
+
+}
 
 
 
