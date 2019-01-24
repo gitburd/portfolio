@@ -85,7 +85,7 @@ h6 {
 }
 
 .masthead {
-    min-height: 30rem;
+    min-height: 60rem;
     position: relative;
     display: table;
     width: 100%;
@@ -96,7 +96,8 @@ h6 {
     background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/bg-masthead.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+    overflow:hidden;
 }
 
 .masthead h1 {

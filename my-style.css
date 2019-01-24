@@ -1,25 +1,137 @@
-/* google fonts
-
-font-family: 'Audiowide', cursive;
-font-family: 'Baloo', cursive;
-font-family: 'Oregano', cursive;
-font-family: 'Nova Round', cursive;
-font-family: 'Nunito', sans-serif; */
-
-
-
-#over.h3 {
-     font-family: 'Nunito','Nova Round', 'Baloo', Bookman !important; 
-    font-size: 30px !important;
-}
 
 body {margin: 0;
   
 }
 
- 
+ /* #pushContent{
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
 
-#about-txt{
+
+
+@media (max-width: 767px) {
+  #pushContent {
+  height: 222.5px;
+  width:100%;
+  display: none;
+  }
+
+  #pushPortfolio {
+    height: 222.5px;
+    width:100%;
+    display: none;
+    }
+  
+}
+
+@media (max-width: 480px) {
+  #pushContent {
+  height: 222.5px;
+  width:100%;
+  display: none;
+  }
+  #pushPortfolio{
+    height: 222.5px;
+    width:100%;
+    display: none;
+    }
+}
+
+.new{
+  padding-top: 30px;
+  background-color: black; 
+}
+
+.dark-pink{
+color:#AD0057 !important;
+font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
+margin-top: 0px !important;
+  /* padding-top: 10px !important;  */
+  padding-bottom: 10px;
+  font-weight: bold; 
+  font-size: 30px !important;
+}
+
+.light-pink{
+color:#FF5CAD !important;
+font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
+margin-top: 0px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px; 
+  font-weight: bold;
+font-size: 30px !important;
+}
+
+/* top */
+
+h1.land{
+  color:white !important;
+  font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
+  
+  text-align: center;
+  display: block;
+  margin: auto;
+  }
+  h2.land{
+  color:white !important;
+  font-family: "Trebuchet MS", 'Source Sans Pro' !important;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 24px;
+  }
+
+/* nav */
+
+
+.nav-link{
+  color:#FF5CAD !important;
+  font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
+  font-size: 24px;
+  padding: 7px;   
+  
+}
+.name{
+  color:white !important;
+  font-family: 'Nunito','Nova Round', 'Baloo', Bookman;  
+  font-size: 36px; 
+  padding-right: 10px;   
+}
+
+
+/* portfolio */
+
+#portfolio{
+  margin-top:0; 
+  padding-top: 0;
+  margin-bottom: 0;
+    /* padding-bottom: 40px; */
+}
+
+/* resume */
+.resume{
+  margin-top:0; 
+  padding-top: 0;
+  margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#resume{
+  color:hotpink !important;
+  font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
+  margin-top: 0px !important;
+    padding-top: 0pt !important; 
+
+}
+
+
+
+ /* about */
+
+ #about-txt{
   font-family: 'Lora', 'Trebuchet MS', 'Source Sans Pro' !important;
   font-size: 18px;
   float: left;
@@ -29,87 +141,20 @@ body {margin: 0;
 
  #about-img{
   
-  width: 45%;
+  width: 50%;
   padding: 20px, 10px, 10px, 0;
+  border-radius: 10%;
+  
 
 }
 
-#about{padding-top: 65px;
-    padding-bottom: 20px;
+#about{
+  padding-bottom: 40px;
+  margin-top: 40px;
+    
     }
 
 
-#resume{
-    color:hotpink !important;
-    font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
-    margin-top: 0px !important;
-      padding-top: 0pt !important; 
-
-}
-.resume{
-  margin-top:0; 
-  padding-top: 0;
-  margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-#portfolio{
-  margin-top:0; 
-  padding-top: 0;
-  margin-bottom: 0;
-    padding-bottom: 40px;
-}
-
-.name{
-    color:white !important;
-    font-family: 'Nunito','Nova Round', 'Baloo', Bookman;  
-    font-size: 36px; 
-    padding-right: 10px;   
-}
-
-
-.nav-link{
-    color:#FF5CAD !important;
-    font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
-    font-size: 24px;
-    padding: 7px;   
-    
-}
-
-
-h1.land{
-  color:white !important;
-  font-family: 'Merriweather Sans','Nunito','Nova Round', 'Baloo', Bookman;  
-  
-  text-align: center;
-  display: block;
-  margin: auto;
-}
-h2.land{
-  color:white !important;
-  font-family: "Trebuchet MS", 'Source Sans Pro' !important;
-  text-align: center;
-  display: block;
-  margin: auto;
-  font-size: 24px;
-}
-
-
-.dark-pink{
-  color:#AD0057 !important;
-  font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
-  margin-top: 0px !important;
-    padding-top: 0pt !important; 
-    font-weight:bold; 
-}
-
-.light-pink{
-  color:#FF5CAD !important;
-  font-family: 'Merriweather','Nunito','Nova Round', 'Baloo', Bookman;  
-  margin-top: 0px !important;
-    padding-top: 0pt !important; 
-    font-weight: bold;
-}
 
 /* ul.topnav {
   list-style-type: none;
@@ -145,4 +190,23 @@ ul.topnav li a.active {background-color: #4CAF50;}
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
+} */
+
+
+/* do i need? */
+
+/* google fonts
+
+font-family: 'Audiowide', cursive;
+font-family: 'Baloo', cursive;
+font-family: 'Oregano', cursive;
+font-family: 'Nova Round', cursive;
+font-family: 'Nunito', sans-serif; */
+
+
+/*  */
+
+/* #over.h3 {
+     font-family: 'Nunito','Nova Round', 'Baloo', Bookman !important; 
+    font-size: 30px !important;
 } */
