@@ -16,7 +16,7 @@ a.nav-link:hover {
 
 body {
   margin: 0;
-
+  font-family: 'Lora','Raleway', sans-serif !important;
 }
 
 /* #pushContent{
@@ -30,7 +30,6 @@ body {
     display: none;
   }
 }
-
 
 @media (max-width: 767px) {
   #pushContent {
@@ -76,17 +75,18 @@ body {
   /* padding-top: 10px !important;  */
   padding-bottom: 10px;
   font-weight: bold;
-  font-size: 45px !important;
+  font-size: 40px !important;
 }
 
 .light-pink {
-  color: #FF5CAD !important;
+  color: #f792c6 !important;
+  /* color: #FF5CAD !important; */
   font-family: 'Merriweather', 'Nunito', 'Nova Round', 'Baloo', Bookman;
   margin-top: 0px !important;
   padding-top: 10px !important;
   padding-bottom: 10px;
   font-weight: bold;
-  font-size: 30px !important;
+  font-size: 40px !important;
 }
 
 /* top */
@@ -94,11 +94,13 @@ body {
 h1.land {
   color: white !important;
   font-family: 'Merriweather Sans', 'Nunito', 'Nova Round', 'Baloo', Bookman;
-
+  font-size: calc(15vmin);
   text-align: center;
   display: block;
   margin: auto;
+  text-shadow: -1px -1px 9px #000, 1px -1px 9px #000, -1px 1px 9px #000, 1px 1px 9px #000;
 }
+
 
 h2.land {
   color: white !important;
@@ -106,14 +108,18 @@ h2.land {
   text-align: center;
   display: block;
   margin: auto;
-  font-size: 24px;
+  font-size:  calc(8vmin);
+  text-shadow: -1px -1px 6px #000, 1px -1px 6px #000, -1px 1px 6px #000, 1px 1px 6px #000;
+
 }
 
 /* nav */
 
 
 .nav-link {
-  color: #FF5CAD !important;
+  
+  color: #f792c6 !important;
+  /* color: #FF5CAD !important; */
   font-family: 'Merriweather Sans', 'Nunito', 'Nova Round', 'Baloo', Bookman;
   font-size: 24px;
   padding: 7px;
@@ -127,6 +133,9 @@ h2.land {
   padding-right: 10px;
 }
 
+a{
+  color:#f792c6 !important;
+}
 
 /* portfolio */
 
@@ -145,20 +154,35 @@ h2.land {
   padding-bottom: 0;
 }
 
-#resume {
-  color: hotpink !important;
-  font-family: 'Merriweather', 'Nunito', 'Nova Round', 'Baloo', Bookman;
-  margin-top: 0px !important;
-  padding-top: 0pt !important;
+h1.resume  {
+font-family: 'Merriweather', 'Nunito', 'Nova Round', 'Baloo', Bookman;
+  font-size:4rem;
 
 }
 
+h2.resume{
+  color: #30723f !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 2rem;
+  padding: 12px 0 10px 0;
+}
+
+/* 
+h2{
+  color: #30723f !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  }  */
+
+
+.resumeTxt{
+  font-size: 14px;
+}
 
 
 /* about */
 
 #about-txt {
-  font-family: 'Lora', 'Trebuchet MS', 'Source Sans Pro' !important;
+  font-family: 'Trebuchet MS', 'Source Sans Pro' !important;
   font-size: 18px;
   float: left;
   padding: 10px 0;

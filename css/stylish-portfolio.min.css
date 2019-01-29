@@ -260,13 +260,15 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-    font-size: .8rem;
-    text-transform: uppercase
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 4px #000, 1px -1px 4px #000, -1px 1px 4px #000, 1px 1px 4px #000;
 }
 
 .portfolio-item .caption .caption-content p {
     font-weight: 300;
-    font-size: 1.2rem
+    font-size: 2rem;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
 }
 
 @media (min-width:992px) {
@@ -308,15 +310,15 @@ h6 {
 }
 
 footer.footer {
-    padding-top: 5rem;
+    padding-top: rem;
     padding-bottom: 5rem
 }
 
 footer.footer .social-link {
     display: block;
-    height: 4rem;
-    width: 4rem;
-    line-height: 4.3rem;
+    height: 6.5rem;
+    width: 6.5rem;
+    line-height: 8rem;
     font-size: 1.5rem;
     background-color: hotpink;
     -webkit-transition: background-color .15s ease-in-out;
