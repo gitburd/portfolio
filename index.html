@@ -39,7 +39,7 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo|Nova+Round|Nunito|Oregano|Merriweather+Sans|Lora|Josefin+Sans|Raleway"
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo|Nova+Round|Nunito|Oregano|Merriweather+Sans|Lora|Josefin+Sans|Raleway|Roboto"
     rel="stylesheet">
   <link rel="stylesheet" href="my-style.css">
 
@@ -59,7 +59,7 @@
 
 <body id="page-top">
   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid" style="background-color:black;"">
+    <div class="container-fluid" style="background-color:black;">
       <div class=" navbar-header">
       <button aria-label="toggle navigation bar" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -121,8 +121,6 @@
     <img src="img/cut3.png" width="100%" alt="abstract flower">
   </div>
 
-  <!-- <section class="content-section" > -->
-
   <div class="container">
     <div class="content-section-heading ">
       <p class="portfolio"></p>
@@ -131,53 +129,49 @@
     </div>
     <div class="row no-gutters">
       <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>Piñata</h2>
-              <p class="mb-0">A mental health focused app for mood tracking, coping skill suggestion and crisis intervention.</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-        </a>
-      </div>
-      <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
+        <div class="portfolio-item">
           <span class="caption">
             <span class="caption-content">
               <h2>AikiQuotes</h2>
               <p class="mb-0">Explore philosophical quotes by Aikido founder O-Sensei, Morihei Ueshiba.</p>
+              <br>
+              <p class="stack">React, NodeJs, ExpressJs & MongoDB</p>
+              <a href="https://aiki-quotes.herokuapp.com/" target="_blank" class="portLink">Deploed on Heroku</a>
+              <a href="https://github.com/gitburd/aiki-quotes" target="_blank" class="portLink" style="float:right;">Code on GitHub</a>
             </span>
           </span>
-          <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-        </a>
-      </div>
-      <!-- <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
-          <span class="caption">
-            <span class="caption-content">
-              <h2>Strawberries</h2>
-              <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-            </span>
-          </span>
-          <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-        </a>
+          <img class="img-fluid" src="img/aikido1.png" alt="">
+        </div>
       </div>
       <div class="col-lg-6">
-        <a class="portfolio-item" href="#">
+        <div class="portfolio-item">
           <span class="caption">
             <span class="caption-content">
-              <h2>Workspace</h2>
-              <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+              <h2>Gopher Gazette</h2>
+              <p class="mb-0">Keep up to data on Go related news.</p>
+              <br>
+              <p class="stack">Go, HTML, React & Postgres</p>
+              <a href="https://gophergazette.herokuapp.com/" target="_blank" class="portLink">Deploed on Heroku</a>
+              <a href="https://github.com/gitburd/gopherGazette" target="_blank"  class="portLink" style="float:right;">Code on GitHub</a>
             </span>
           </span>
-          <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-        </a>
+          <img class="img-fluid" src="img/gopher6.jpg" alt="">
+        </div>
       </div>
-    </div> -->
-    <!-- </div> -->
-    <!-- </section> -->
-
+      <div class="col-lg-6">
+        <div class="portfolio-item">
+          <span class="caption">
+            <span class="caption-content">
+              <h2>Piñata</h2>
+              <p class="mb-0">A mental health focused app for mood tracking, coping skill suggestion and crisis intervention.</p>
+              <br>
+              <p class="stack">React, NodeJs, ExpressJs & Postgres</p>
+              <a href="video.html" target="_blank" class="portLink">Preview</a>
+            </span>
+          </span>
+          <img class="img-fluid" src="img/pinata3.jpg" alt="">
+        </div>
+      </div>
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" alt="top of page" href="#page-top">
       <i class="fas fa-angle-up fa-3x"></i>
@@ -213,7 +207,7 @@
         </div>
 
         <div class="col-lg-4 resumeTxt">
-          <div class="right"></div>
+          <div class="right" style="padding-left: 20px;"></div>
           Berkeley, CA
           <br>(916) 767-1758
           <br>denaburd@gmail.com
@@ -227,96 +221,90 @@
     <div class="container">
       <div class="row no-gutters">
 
-        <div class="col-lg-8">
+        <div class="col-lg-8" style="padding-right: 25px;">
           <h2 class="resume">EXPERIENCE</h2>
-
-          
+          <span class='resumeTxt'> <b>Quantcast</b> , San Francisco — <i> Software Engineer Intern</i></span>
+              <br>
+           <span class= 'resumeTxt'>July 2019 - January 2020 <br>
+            I contributed to the internal services used by the engineering and sales team. (Go, React, gRPC, Java and SalesForce)
+            <ul>
+              <li>Created a React user interface</li>
+              <li>Created a Command-line interface to simplify user interaction with our database</li>  
+              <ul>
+                  <li>Structured subcommands and flags</li>
+                  <li>Elegantly displayed information returned by gRPC calls</li>
+                  <li>Worte thorough and descriptive table-driven tests</li>
+                </ul>
+              </li>
+              <li>
+                Developed on Salesforce
+                <ul>
+                  <li>Set validation rules and edited custom objects</li>
+                  <li>Altered VisualForce pages</li>
+                  <li>Wrote APEX code, and SOQL queries </li>
+                </ul>
+              </li>
+            </ul>
+          </span>
+          <br>
             <span class='resumeTxt'> <b>Techtonica</b> , San Francisco — <i> Software Engineering Apprentice </i></span>
               <br>
            <span class= 'resumeTxt'>January - June 2019 <br>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+            Developed fullstack projects with React, Express, Node and Postgres. Incorporated third party tools such as  Amazon S3 bucket and Auth0 authentication. 
+            <ul>
+              <li>Created responsive React Apps</li>
+              <li>Designed and implemented RESTful APIs</li>
+              <li>Designed  databases in MongoDB and SQL</li>
+              <li>Collaborated with peers on projects by pair programming</li>
+            </ul>
           </span>
           <br>
-  <!-- close job 1 -->
-     
-        <br>  
             <span class='resumeTxt'><b>Berkeley City College </b>, Berkeley — <i>Web Design Teaching Assistant </i>
            <br>
            August - December 2018
            <br>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+           Guided class of 30 students with implementation of core HTML5 & CSS3 concepts and debugging strategies. 
+           <ul>
+             <li>Identified and clarified common stumbling blocks</li>
+             <li>Created reference materials to supplement the curriculum</li>
+             <li>Communicated concepts effectively to students</li>
+           </ul>
             </span>
             <br>
-            <!-- close job 2 -->
-          <br>
-
-            <span class='resumeTxt'> <b>Company</b>, Location — 
-             <i>Job Title </i>20XX - MONTH 20XX 
-              <br>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. 
-            </span>
-            <!-- close job 3 -->
-
             <h2 class='resume'>EDUCATION</h2>
-            <span class='resumeTxt'><b>University of California</b>, Santa Cruz — <i>B.A. of Theater Arts </i>
+            <span class='resumeTxt'><b>University of California</b>, Santa Cruz — <i>Bachelor of Arts, Theater</i>
+              <br>
               June 2012
               <br>
-              Lighting design focus.
-            <!-- close education  -->
-            </span>
-            <br>
-            <br>
-
-            <h2 class='resume'>PORTFOLIO</h2>
-            <span class='resumeTxt'><b> Project Name</b> — <i>detail </i>     
-                <br>
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              </span>
-              <br>
-              <br>
-              <span class='resumeTxt'><b> Project Name</b> — <i>detail </i>     
-                <br>
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-              </span>
-              <br>
-              <br>
-
-              <span class='resumeTxt'><b> Project Name</b> — <i>detail </i>     
-                <br>
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-              </span>
-              <br>
-              <br>
-              <span class='resumeTxt'><b> Project Name</b> — <i>detail </i>     
-                <br>
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-              </span>
-              <br>
-              <br>
-
+            
           <!-- close col. -->
         </div>
 
         <div class="col-lg-4 ">
-          <div class="right">
+          <div class="right" style="padding-left: 20px;">
           <h2 class='resume'>SKILLS</h2>
-          <i class="devicon-html5-plain-wordmark colored fa fa-4x"></i>
-          <i class="devicon-css3-plain-wordmark colored fa-4x"></i>
           <i class="devicon-javascript-plain colored fa fa-4x"></i>
-          <i class="devicon-ruby-plain-wordmark colored fa-4x"></i>
           <br>
-
-          <i class="devicon-bootstrap-plain colored fa-4x"></i>
+          <i class="devicon-html5-plain-wordmark colored fa fa-4x"></i>
+          <br>
+          <i class="devicon-css3-plain-wordmark colored fa-4x"></i>
+          <br>
           <i class="devicon-react-original-wordmark colored fa-4x"></i>
+          <br>
+          <i class="devicon-nodejs-plain-wordmark fa-4x"></i>
+          <br>
+          <i class="devicon-express-original-wordmark colored fa-4x"></i>
+          <br>
+          <i class="devicon-postgresql-plain-wordmark fa-4x"></i>
+          <br>
+          <i class="devicon-go-line colored fa-4x"></i>
+          <br>
+          <i class="devicon-bootstrap-plain colored fa-4x"></i>
+          
           
           <br>
           <i class="devicon-illustrator-line colored fa-4x"></i>
+          <br>
           <i class="devicon-photoshop-line colored fa-4x"></i>
          
           <br>
@@ -324,23 +312,11 @@
           
           <br>
           <br>
-          <h2 class='resume'>AWARDS</h2>
+          <h2 class='resume'>AWARD</h2>
           <div class= "resumeTxt">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a semper urna, et tempor est.
-            Cras lorem augue, varius aliquet felis eget, molestie dapibus lacus. Donec semper orci laoreet, mollis
-            diam
-            non, pellentesque neque.
-            <br> <br> Aliquam feugiat nulla dapibus ligula dapibus viverra. Integer eu tincidunt
-            mauris.
-            Pellentesque eget lobortis sapien. Curabitur eu quam et dui cursus maximus. Quisque quam ipsum, semper
-            quis
-            libero 
-            <br> <br>in, pellentesque fringilla nisl. Suspendisse tristique lacus felis, ac hendrerit lectus posuere
-            ac.
-            Quisque a rhoncus ante, quis cursus dolor. Nunc porta ex sem, ac sollicitudin dui laoreet ac. Phasellus
-            quam
-
+            Joyable Hack Mental Health 2019 Challenge: 
+            Hacking a solution to provide more integrated options for those in need of crisis support.             
 
           </p>
           <!-- close right class -->

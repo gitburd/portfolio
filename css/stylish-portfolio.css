@@ -232,6 +232,10 @@ html {
   font-size: 3rem;
 }
 
+.portfolio-item .caption .stack{
+  font-size: 2.5rem;
+}
+
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;

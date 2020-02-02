@@ -137,6 +137,10 @@ a{
   color:#f792c6 !important;
 }
 
+.portLink{
+  font-size: 18px !important;
+}
+
 /* portfolio */
 
 #portfolio {
@@ -204,6 +208,9 @@ h2{
 
 }
 
+.stack{
+  font-size: medium;
+}
 
 
 /* ul.topnav {
